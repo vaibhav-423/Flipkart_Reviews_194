@@ -87,4 +87,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Run the Flask app with the provided arguments
-    app.run(host=args.host, port=args.port, debug=True)
+    app.run(host='0.0.0.0', port=args.port, debug=False)
